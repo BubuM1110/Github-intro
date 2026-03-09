@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+    </head>
+    <style>
+        body{
+            background-color: #4caf50 ;
+            border-radius: 2px;
+            border-color: black;   
+        }
+        body, ul{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            justify-content: right;
+        }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color:#614214;
+        padding: 0.75rem 2rem;border-radius: 8px;
+    }
+    menu a :hover{
+        text-decoration: underline;
+        background-color:  #614214 ;
+        border-radius: 4px;
+        color: #ff9800;
+    }
+    .btn {
+        display: inline-block;
+        background-color: #4caf50;
+        color: white;
+        padding: 12px 24px;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 5px;
+        transition: background 0.3s;
+    }
+    .btn :hover
+    {
+        background-color: #45a049;
+    }
+
+    menu a {
+        color: white;
+        margin: 0;
+        font-weight: bold;
+        padding: 8px 15px;
+        display: flex;
+    }
+    .intro-image 
+    {
+        flex: 1;
+        min-width: 40px;
+        padding: 1rem;
+        text-align: left;
+    }
+    .intro-image img 
+    {
+        max-width: 15%;
+        height: auto;
+        border-radius: 8px;
+    }
+    .logo-text
+    {
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .logo-container
+    {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        text-decoration: none;
+    }
+    footer{
+        background-color: #614214;
+        columns: white;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: auto;
+        border-top: #ff9800;
+    }
+    </style>
+    <body>
+        <nav class="menu">
+            <div>
+                <a href="Assets/Beauty.png" class="logo-container"><span class="logo-text"> <div class= "intro-image">
+                <img src="Professional cartoon.png" alt="Nobuntu Mrubata"/>
+                </div></span> </a>
+            </div>
+
+            <a href="/Assignment/index.html" class="btn" target="_blank">Contact</a>
+        </nav>
+        <main class="content">
+            <form action="submit_form.pdf"  method="post">
+                <label for="name">Name:</label><br>
+                <input type="Text" id="Name" name="Name"required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"required><br><br>
+
+                <label for="messages">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <input type="submit" value="Send Message">
+                </form>
+            
+
+            <h4>Let's get in touch send me your contact details and what more you would love to know 
+                will get back to you or contact below for more information:</h4>
+                <ul>
+                <li>Email: n*********@gmail.com</li>
+                    <li>Number: 073*****72</li>
+                </ul>
+        </main>
+        <footer>
+        <p>&copy;2026 Website | <a href="www.linkedin.com/in/nobuntu-mrubata-2081aa35b">Linkedin</a></p>
+        </footer>
+   
+
+    </body>
+</html>
